@@ -10,5 +10,5 @@ document.querySelector(".num1").innerHTML = num1;
 document.querySelector(".num2").innerHTML = num2;
 document.querySelector(".addition").innerHTML = addition;
 
-// Q:2
-var 
+// // Q:2
+// var 
