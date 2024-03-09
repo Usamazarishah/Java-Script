@@ -1,13 +1,21 @@
-// Q:1
-
-var num1 = 5
-var num2 = 3
-
-var addition = num1 + num2
-console.log(addition)
-
-document.querySelector(".num1").innerHTML = num1;
-document.querySelector(".num2").innerHTML = num2;
-document.querySelector(".addition").innerHTML = addition;
 
 
+
+// var firstName  = prompt('Your First name')
+// var lastName = prompt('Your last name')
+
+// console.log('Your fullname is ' + firstName + ' ' + lastName )
+
+
+var maths = +prompt('Your math number')
+var urdu = +prompt('Your urdu number')
+var english = +prompt('Your english number')
+
+console.log(typeof maths)
+console.log(maths + urdu + english)
+var percentage = (maths + urdu + english) /300 * 100
+
+console.log('Your percentage is ' + percentage + '%')
+document.write('Your percentage is ' + percentage + '%')
+
+document.write("<h1>Your percentage is" + percentage + "% </h1>")
