@@ -94,22 +94,22 @@ var percentage = ('English+Math+Islamiyat+Urdu+Physics+Computer_Science')/600 *1
 
 document.write('Your percentage'+percentage+'%')
 
-// if (percentage =450) {
-//     console.log('A1 Grade');
+if (percentage =450) {
+    console.log('A1 Grade');
 
-// }
-// else if (percentage =400) {
-//     console.log('A Grade');
-// }
-// else if (percentage =350) {
-//     console.log('B Grade');
-// }
-// else if (percentage =300) {
-//     console.log('C Grade');
-// }
-// else if (percentage =250) {
-//     console.log('D Grade');
-// }
+}
+else if (percentage =400) {
+    console.log('A Grade');
+}
+else if (percentage =350) {
+    console.log('B Grade');
+}
+else if (percentage =300) {
+    console.log('C Grade');
+}
+else if (percentage =250) {
+    console.log('D Grade');
+}
 else{
     console.log('Fail');
 }
