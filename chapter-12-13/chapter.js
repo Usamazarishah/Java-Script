@@ -25,26 +25,6 @@
 // }
 
 
-// var num1 = +prompt('Enter your are percentage')
-
-// if (num1 >= 80){
-//     console.log('A1 Grade');
-// }
-// else if (num1 >= 70){
-//     console.log('A Grade');
-// }
-// else if (num1 >= 60){
-//     console.log('B Grade');
-// }
-// else if (num1 >= 50){
-//     console.log('C Grade');
-// }
-// else if (num1 >= 40){
-//     console.log('D Grade');
-// }
-// else{
-//     console.log('you are fail');
-// }
 
 //Question :02
 // var num1 = +prompt("enter your 1st integer");
@@ -83,32 +63,50 @@
 //     console.log('Incorrect password');
 // }
 
-//Marksheet
+// Marksheet
+// var English = +prompt('English percentage')
+// var Math = +prompt('Math percentage')
+// var Islamiyat = +prompt('Islamiyat percentage')
+// var Urdu = +prompt('Urdu percentage')
+// var Physics = +prompt('Physics percentage')
+// var Computer_Science = +prompt('Computer_Science percentage')
+// var percentage = (English+Math+Islamiyat+Urdu+Physics+Computer_Science)/600 *100
+
+// document.write('Your percentage is' + percentage + '%')
+
+// if (percentage =450) {
+//     console.log('A1 Grade');
+
+// }
+// else if (percentage =400) {
+//     console.log('A Grade');
+// }
+// else if (percentage =350) {
+//     console.log('B Grade');
+// }
+// else if (percentage =300) {
+//     console.log('C Grade');
+// }
+// else if (percentage =250) {
+//     console.log('D Grade');
+// }
+// else{
+//     console.log('Fail');
+// }
+
+// Marksheet
 var English = +prompt('English percentage')
 var Math = +prompt('Math percentage')
 var Islamiyat = +prompt('Islamiyat percentage')
 var Urdu = +prompt('Urdu percentage')
 var Physics = +prompt('Physics percentage')
 var Computer_Science = +prompt('Computer_Science percentage')
-var percentage = ('English+Math+Islamiyat+Urdu+Physics+Computer_Science')/600 *100
+var percentage = (English+Math+Islamiyat+Urdu+Physics+Computer_Science)/600 *100
 
-document.write('Your percentage'+percentage+'%')
+document.write('Your percentage is' + percentage + '%')
 
-if (percentage =450) {
-    console.log('A1 Grade');
-
-}
-else if (percentage =400) {
-    console.log('A Grade');
-}
-else if (percentage =350) {
-    console.log('B Grade');
-}
-else if (percentage =300) {
-    console.log('C Grade');
-}
-else if (percentage =250) {
-    console.log('D Grade');
+if (percentage >=50) {
+    console.log('pass');
 }
 else{
     console.log('Fail');
